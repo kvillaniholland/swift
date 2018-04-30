@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		062EBC062094610F001923A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EBC052094610F001923A5 /* AppDelegate.swift */; };
-		062EBC082094610F001923A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EBC072094610F001923A5 /* ViewController.swift */; };
+		062EBC082094610F001923A5 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EBC072094610F001923A5 /* SearchResultsViewController.swift */; };
 		062EBC0B2094610F001923A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062EBC092094610F001923A5 /* Main.storyboard */; };
 		062EBC0D20946111001923A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062EBC0C20946111001923A5 /* Assets.xcassets */; };
 		062EBC1020946111001923A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062EBC0E20946111001923A5 /* LaunchScreen.storyboard */; };
 		062EBC1B20946111001923A5 /* LearningSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EBC1A20946111001923A5 /* LearningSwiftTests.swift */; };
 		062EBC2620946111001923A5 /* LearningSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EBC2520946111001923A5 /* LearningSwiftUITests.swift */; };
+		06D69D102097079200CAAA5F /* iTunesGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D69D0F2097079200CAAA5F /* iTunesGateway.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		062EBC022094610F001923A5 /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		062EBC052094610F001923A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		062EBC072094610F001923A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		062EBC072094610F001923A5 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		062EBC0A2094610F001923A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		062EBC0C20946111001923A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		062EBC0F20946111001923A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		062EBC2120946111001923A5 /* LearningSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062EBC2520946111001923A5 /* LearningSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUITests.swift; sourceTree = "<group>"; };
 		062EBC2720946111001923A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D69D0F2097079200CAAA5F /* iTunesGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesGateway.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				062EBC052094610F001923A5 /* AppDelegate.swift */,
-				062EBC072094610F001923A5 /* ViewController.swift */,
+				062EBC072094610F001923A5 /* SearchResultsViewController.swift */,
 				062EBC092094610F001923A5 /* Main.storyboard */,
 				062EBC0C20946111001923A5 /* Assets.xcassets */,
 				062EBC0E20946111001923A5 /* LaunchScreen.storyboard */,
 				062EBC1120946111001923A5 /* Info.plist */,
+				06D69D0F2097079200CAAA5F /* iTunesGateway.swift */,
 			);
 			path = LearningSwift;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062EBC082094610F001923A5 /* ViewController.swift in Sources */,
+				06D69D102097079200CAAA5F /* iTunesGateway.swift in Sources */,
+				062EBC082094610F001923A5 /* SearchResultsViewController.swift in Sources */,
 				062EBC062094610F001923A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
